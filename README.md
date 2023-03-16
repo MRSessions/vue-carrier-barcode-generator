@@ -50,4 +50,4 @@ See [Configuration Reference](https://vitejs.dev/config/).
 
 ## Running Docker Locally
 
-`docker run -d -p 8080:8080 ghcr.io/mrsessions/vue-carrier-barcode-generator:latest`
+`docker run -d -p 8080:8080 --name vue-carrier-barcode-generator ghcr.io/mrsessions/vue-carrier-barcode-generator:latest`
